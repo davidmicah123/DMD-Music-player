@@ -28,4 +28,26 @@ main{
 .headset_wrapper{
     text-align: center;
 }
-
+.headset{
+    width: 60%;
+}
+.function_area{
+    padding: 2vh;
+    border-radius: 1rem;
+    border: 2px solid white;
+    color: white;
+    margin: 1vh auto;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 3vh;
+}
+.pause_play_function{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+.pause_play_function i{
+    color: black;
+    font-size: 4rem;
+}
