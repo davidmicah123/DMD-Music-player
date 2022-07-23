@@ -10,3 +10,22 @@ main{
     padding: 6vh 0;
     background-color: rgba(0, 0, 0, 0.89);
 }
+.audio_1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.music_area{
+    width: 55vw;
+    margin: 0 auto;
+    background-color: brown;
+    padding: 6vh 2vh;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.headset_wrapper{
+    text-align: center;
+}
+
