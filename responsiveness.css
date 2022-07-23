@@ -1,0 +1,30 @@
+@media (max-width: 1000px) {
+    .music_area{
+        width: 70vw;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .music_area{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .music_area{
+        width: 85vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .music_area{
+        width: 90vw;
+    }
+    .song_list{
+        font-size: 1rem;
+    }
+    main{
+        padding: 5vh 0;
+    }
+}
