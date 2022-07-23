@@ -51,3 +51,31 @@ main{
     color: black;
     font-size: 4rem;
 }
+.progress{
+    height: 4vh;
+    /* transition: 10s all; */
+    /* color: white; */
+    margin: 1vh 0;
+    text-transform: uppercase;
+}
+
+
+.song_list{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2.3vw;
+    line-height: 1.6;
+}
+.song_list li:hover{
+    width: 98%;
+    background-color: tomato;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 2vh;
+    color: white;
+}
+
+
