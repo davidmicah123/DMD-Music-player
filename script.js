@@ -8,3 +8,15 @@ const volume = document.querySelector(".volume");
 const pauseAudio = document.querySelector(".pause_audio");
 const playAudio = document.querySelector(".play_audio");
 const currentMusic = document.querySelector(".current_music");
+
+volume.oninput = function (e) {
+  const currentVolume = volume.value;
+  audio1.volume = currentVolume;
+};
+
+pauseAudio.addEventListener("click", () => {
+  audio1.pause();
+});
+playAudio.addEventListener("click", () => {
+  audio1.play();
+});
