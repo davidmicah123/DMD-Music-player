@@ -53,3 +53,19 @@ const translateProgress1 = function () {
   }, 358);
 };
 
+
+audio1Text.addEventListener("click", () => {
+  audio1.src = `./song/alone.mp3`;
+  audio1.play();
+  currentMusic.textContent = audio1Text.textContent;
+  translateProgress1();
+});
+
+audio2Text.addEventListener("click", () => {
+  audio1.src = `song/home.mp3`;
+  audio1.load();
+  audio1.play();
+  currentMusic.textContent = audio2Text.textContent;
+
+  translateProgress1();
+});
