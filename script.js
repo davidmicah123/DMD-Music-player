@@ -69,3 +69,22 @@ audio2Text.addEventListener("click", () => {
 
   translateProgress1();
 });
+
+
+
+audio3Text.addEventListener("click", () => {
+  audio1.src = `song/play.mp4`;
+  audio1.load();
+  audio1.play();
+  currentMusic.textContent = audio3Text.textContent;
+
+  translateProgress1();
+});
+audio4Text.addEventListener("click", () => {
+  audio1.src = `song/runaway.mp3`;
+  audio1.load();
+  audio1.play();
+  currentMusic.textContent = audio4Text.textContent;
+
+  translateProgress1();
+});
