@@ -20,3 +20,18 @@ pauseAudio.addEventListener("click", () => {
 playAudio.addEventListener("click", () => {
   audio1.play();
 });
+
+// document.addEventListener('keydown',
+//   function (e) {
+//     let clicked = false;
+//     // console.log(e.key)
+//     if (e.key === ' ' && clicked === false) {
+//         audio1.pause();
+//         console.log(1)
+//         clicked = true;
+//     }
+//     if (e.key === ' ' && clicked === true) {
+//       audio1.play();
+//     }
+//   }
+// );
