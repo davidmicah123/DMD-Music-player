@@ -35,3 +35,21 @@ playAudio.addEventListener("click", () => {
 //     }
 //   }
 // );
+
+
+
+const translateProgress1 = function () {
+  let value = 0;
+  let interval = setInterval(function () {
+    let progressBar = document.querySelector(".progress1");
+    value = (audio1.currentTime / audio1.duration) * 100;
+    progressBar.style.width = `${value}%`;
+    progressBar.textContent = "Playing";
+    if (value === 90) {
+      progressBar.textContent = "Played";
+      clearInterval(interval);
+      value = 0;
+    }
+  }, 358);
+};
+
