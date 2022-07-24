@@ -88,3 +88,20 @@ audio4Text.addEventListener("click", () => {
 
   translateProgress1();
 });
+
+
+audio5Text.addEventListener("click", () => {
+  audio1.src = `song/alone.mp3`;
+  audio1.load();
+  audio1.play();
+  currentMusic.textContent = audio5Text.textContent;
+
+  translateProgress1();
+});
+
+const myDetails = `Developed by David Micah-Daniles @ july 19, 2022`;
+const moreDetails = `My name is David Micah-Daniles i am a 15 years old programmer and frontend developer at the moment, i developed this website to improve my javaScript skill`;
+// localStorage.setItem('Details', JSON.stringify(myDetails));
+localStorage.setItem('More-Details', JSON.stringify(moreDetails));
+
+const developer = JSON.parse(localStorage.getItem('Details'));
